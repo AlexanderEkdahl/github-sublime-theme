@@ -348,8 +348,6 @@
 
 
       <dict>
-          <key>name</key>
-          <string>Ruby: require</string>
           <key>scope</key>
           <string>keyword.other.special-method.ruby.gem</string>
           <key>settings</key>
@@ -362,10 +360,8 @@
       </dict>
 
       <dict>
-          <key>name</key>
-          <string>Haskell: prelude</string>
           <key>scope</key>
-          <string>support.function.prelude</string>
+          <string>support.function.prelude, variable.other.generic-type.haskell</string>
           <key>settings</key>
           <dict>
               <key>foreground</key>
@@ -375,10 +371,8 @@
           </dict>
       </dict>
       <dict>
-          <key>name</key>
-          <string>Haskell: Constants</string>
           <key>scope</key>
-          <string>constant.other.haskell</string>
+          <string>constant.other.haskell, support.constant.haskell</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
