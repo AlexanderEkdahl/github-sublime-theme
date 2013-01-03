@@ -35,7 +35,7 @@
           <key>name</key>
           <string>Comments</string>
           <key>scope</key>
-          <string>comment, comment punctuation</string>
+          <string>comment</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
@@ -82,16 +82,21 @@
           </dict>
       </dict>
       <dict>
-          <key>name</key>
-          <string>Language Constants</string>
           <key>scope</key>
-          <string>variable.language, keyword.other.special-method.ruby.gem</string>
+          <string>variable</string>
+          <key>settings</key>
+          <dict>
+              <key>foreground</key>
+              <string>#008080</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>scope</key>
+          <string>variable.language</string>
           <key>settings</key>
           <dict>
               <key>foreground</key>
               <string>#0086B3</string>
-              <key>fontStyle</key>
-              <string></string>
           </dict>
       </dict>
       <dict>
@@ -288,7 +293,6 @@
       </dict>
 
 
-
       <dict>
           <key>scope</key>
           <string>meta.selector, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css, entity.other.attribute-name.class</string>
@@ -338,6 +342,49 @@
               <string></string>
               <key>foreground</key>
               <string>#099</string>
+          </dict>
+      </dict>
+
+
+
+      <dict>
+          <key>name</key>
+          <string>Ruby: require</string>
+          <key>scope</key>
+          <string>keyword.other.special-method.ruby.gem</string>
+          <key>settings</key>
+          <dict>
+              <key>foreground</key>
+              <string>#0086B3</string>
+              <key>fontStyle</key>
+              <string></string>
+          </dict>
+      </dict>
+
+      <dict>
+          <key>name</key>
+          <string>Haskell: prelude</string>
+          <key>scope</key>
+          <string>support.function.prelude</string>
+          <key>settings</key>
+          <dict>
+              <key>foreground</key>
+              <string>#000</string>
+              <key>fontStyle</key>
+              <string></string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Haskell: Constants</string>
+          <key>scope</key>
+          <string>constant.other.haskell</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string>bold</string>
+              <key>foreground</key>
+              <string>#445588</string>
           </dict>
       </dict>
     </array>
