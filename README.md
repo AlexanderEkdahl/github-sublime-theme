@@ -22,4 +22,4 @@ Go to the folder where you cloned the repo(Default is Packages/github-sublime-th
 
 ##Contributing
 
-I know it is not perfect(nor is the one used on GitHub) but any fixes are welcome. Ruby, Haskell and HTML highlighting are almost identical to the GitHub highlighting.
+It is not perfect yet(nor is the one used on GitHub) and all fixes are welcome. Ruby, Haskell and HTML highlighting are almost identical to the GitHub highlighting.
