@@ -245,7 +245,7 @@
       </dict>
 
 
-
+      <!-- HTML -->
       <dict>
           <key>name</key>
           <string>HTML: Tags</string>
@@ -312,10 +312,10 @@
           </dict>
       </dict>
 
-
+      <!-- CSS/SASS -->
       <dict>
           <key>scope</key>
-          <string>meta.selector, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css, entity.other.attribute-name.class</string>
+          <string>meta.selector, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css, entity.other.attribute-name.class, keyword.control.html.sass</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
@@ -326,47 +326,29 @@
       </dict>
       <dict>
           <key>scope</key>
-          <string>entity.other.attribute-name.class</string>
-          <key>settings</key>
-          <dict>
-              <key>fontStyle</key>
-              <string>bold</string>
-          </dict>
-      </dict>
-      <dict>
-          <key>scope</key>
-          <string>entity.other.attribute-name.pseudo-element, entity.other.attribute-name.pseudo-class.css</string>
-          <key>settings</key>
-          <dict>
-              <key>foreground</key>
-              <string>#099</string>
-          </dict>
-      </dict>
-      <dict>
-          <key>scope</key>
-          <string>meta.property-name, support.type.property-name</string>
+          <string>entity.other.attribute-name.class, constant.other.unit</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string>bold</string>
               <key>foreground</key>
-              <string>#000</string>
+              <string>#458</string>
           </dict>
       </dict>
       <dict>
           <key>scope</key>
-          <string>meta.property-value constant.numeric, meta.property-value constant, meta.property-value</string>
+          <string>support.type.property-name, support.constant.property-value</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#099</string>
+              <string>#008080</string>
           </dict>
       </dict>
 
 
-
+      <!-- Ruby -->
       <dict>
           <key>scope</key>
           <string>keyword.other.special-method.ruby.gem</string>
@@ -390,6 +372,7 @@
           </dict>
       </dict>
 
+      <!-- Haskell -->
       <dict>
           <key>scope</key>
           <string>support.function.prelude, variable.other.generic-type.haskell</string>
