@@ -2,8 +2,6 @@
 
 ![GithHub Sublime Theme](/screenshot.png)
 
-(Image above is a screenshot from Sublime)
-
 ## Installation
 
 Locate your Sublime Text 2 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
