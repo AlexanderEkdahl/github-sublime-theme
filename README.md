@@ -4,13 +4,21 @@
 
 ## Installation
 
+### Using [Package Control](https://sublime.wbond.net)
+
+Open `Tools -> Command Palette...`. Search for `Package Control: Install Package` and click enter. Wait for
+the available packages to show up and then search for `GitHub Color theme`. Click enter and the theme should
+be installed.
+
+### Using Git
+
 Locate your Sublime Text 2 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
     git clone https://github.com/AlexanderEkdahl/github-sublime-theme.git
 
-## Download Manually
+### Download Manually
 
 * Download the files using the GitHub .zip download option
 * Unzip the files
