@@ -1,6 +1,6 @@
 #Github Sublime Theme
 
-![GithHub Sublime Theme](/screenshot.png)
+![GithHub Sublime Theme](https://raw.github.com/AlexanderEkdahl/github-sublime-theme/master/screenshot.png)
 
 ## Installation
 
