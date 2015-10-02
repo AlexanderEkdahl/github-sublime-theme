@@ -72,7 +72,20 @@
           <key>name</key>
           <string>Types</string>
           <key>scope</key>
-          <string>storage.type, support.type</string>
+          <string>storage.type</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string></string>
+              <key>foreground</key>
+              <string>#a71d5d</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Types</string>
+          <key>scope</key>
+          <string>support.type</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
@@ -112,13 +125,26 @@
           <key>name</key>
           <string>Functions</string>
           <key>scope</key>
-          <string>entity.name.function, support.function, entity</string>
+          <string>entity.name.function, entity</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
               <string>#795da3</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Functions</string>
+          <key>scope</key>
+          <string>support.function</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string></string>
+              <key>foreground</key>
+              <string>#0086B3</string>
           </dict>
       </dict>
       <dict>
@@ -330,7 +356,7 @@
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#183691</string>
+              <string>#795da3</string>
           </dict>
       </dict>
       <dict>
@@ -343,7 +369,7 @@
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#df5000</string>
+              <string>#183691</string>
           </dict>
       </dict>
 
