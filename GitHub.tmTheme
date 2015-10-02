@@ -272,13 +272,26 @@
           <key>name</key>
           <string>HTML: Tags</string>
           <key>scope</key>
-          <string>entity.name.tag, punctuation.definition.tag</string>
+          <string>entity.name.tag</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string></string>
+              <string />
               <key>foreground</key>
               <string>#63a35c</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>HTML: Tags Punctuation</string>
+          <key>scope</key>
+          <string>punctuation.definition.tag</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string />
+              <key>foreground</key>
+              <string>#333</string>
           </dict>
       </dict>
       <dict>
