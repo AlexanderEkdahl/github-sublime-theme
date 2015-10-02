@@ -46,13 +46,26 @@
           <key>name</key>
           <string>Operators</string>
           <key>scope</key>
-          <string>keyword.operator, constant.language, support.constant</string>
+          <string>keyword.operator, support.constant</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
               <string>#A71D5D</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Operators</string>
+          <key>scope</key>
+          <string>constant.language</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string></string>
+              <key>foreground</key>
+              <string>#0086B3</string>
           </dict>
       </dict>
       <dict>
