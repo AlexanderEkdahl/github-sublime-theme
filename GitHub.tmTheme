@@ -46,13 +46,26 @@
           <key>name</key>
           <string>Operators</string>
           <key>scope</key>
-          <string>keyword.operator, constant.language, support.constant</string>
+          <string>keyword.operator, support.constant</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#0086b3</string>
+              <string>#A71D5D</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Operators</string>
+          <key>scope</key>
+          <string>constant.language</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string></string>
+              <key>foreground</key>
+              <string>#0086B3</string>
           </dict>
       </dict>
       <dict>
@@ -72,13 +85,26 @@
           <key>name</key>
           <string>Types</string>
           <key>scope</key>
-          <string>storage.type, support.type</string>
+          <string>storage.type</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
               <string>#a71d5d</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Types</string>
+          <key>scope</key>
+          <string>support.type</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string></string>
+              <key>foreground</key>
+              <string>#0086B3</string>
           </dict>
       </dict>
       <dict>
@@ -112,13 +138,26 @@
           <key>name</key>
           <string>Functions</string>
           <key>scope</key>
-          <string>entity.name.function, support.function, entity</string>
+          <string>entity.name.function, entity</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
               <string>#795da3</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Functions</string>
+          <key>scope</key>
+          <string>support.function</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string></string>
+              <key>foreground</key>
+              <string>#0086B3</string>
           </dict>
       </dict>
       <dict>
@@ -192,7 +231,7 @@
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#df5000</string>
+              <string>#183691</string>
           </dict>
       </dict>
       <dict>
@@ -272,13 +311,26 @@
           <key>name</key>
           <string>HTML: Tags</string>
           <key>scope</key>
-          <string>entity.name.tag, punctuation.definition.tag</string>
+          <string>entity.name.tag</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string></string>
+              <string />
               <key>foreground</key>
               <string>#63a35c</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>HTML: Tags Punctuation</string>
+          <key>scope</key>
+          <string>punctuation.definition.tag</string>
+          <key>settings</key>
+          <dict>
+              <key>fontStyle</key>
+              <string />
+              <key>foreground</key>
+              <string>#333</string>
           </dict>
       </dict>
       <dict>
@@ -291,7 +343,7 @@
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#df5000</string>
+              <string>#183691</string>
           </dict>
       </dict>
       <dict>
@@ -330,7 +382,7 @@
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#df5000</string>
+              <string>#183691</string>
           </dict>
       </dict>
 
